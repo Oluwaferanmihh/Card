@@ -1,0 +1,232 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+
+.a{
+    background: url(bg-main-desktop.png);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: 58%;
+    width: 60%;
+    float: left;
+
+}
+    
+.b{
+    background: url(bg-card-front.png) ;
+    background-repeat: no-repeat;
+    background-size: 360px;
+    height: 220px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.c{
+    background: url(bg-card-back.png);
+    background-repeat: no-repeat;
+    background-size: 350px;
+    height: 250px;
+    margin-left: 270px;
+    
+}
+.d{
+    margin: 25px;
+    margin-bottom: 15px;
+}
+h3{
+    margin: 25px;
+    color: white;
+    letter-spacing: 5px;
+}
+.e{
+    color:white ; 
+    margin: 25px;
+}
+span{
+    margin-right: 100px;
+}
+.span2{
+    margin-right: 50px;
+}
+.f{
+    margin-top: 65px;
+    color: white;
+    margin-left: 280px;
+}
+.form{
+    margin-top: 150px;
+    float: left;
+    width: 35%;
+}
+.g{
+    color: hsl(278, 68%, 11%);
+    font-size: smaller;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+    
+}
+input{
+    border: 1px solid hsl(270, 3%, 87%);
+    padding: 7px;
+    border-radius: 8px;
+    width: 300px;
+    cursor: pointer;
+    
+}
+input:focus{
+    border: none
+}
+input:placeholder-shown{
+    color: hsl(270, 3%, 87%);
+}
+.h{
+    border: 1px solid hsl(270, 3%, 87%);
+    padding: 7px;
+    border-radius: 8px;
+    width: 60px;
+    margin-right: 10px;
+}
+.i{
+    border: 1px solid hsl(270, 3%, 87%);
+    padding: 7px;
+    border-radius: 8px;
+    width: 150px;
+}
+.j{
+    padding: 7px;
+    border-radius: 8px;
+    width: 300px;
+    color: white;
+    background-color:hsl(278, 68%, 11%); 
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+@media only screen and (max-width:1440px){
+    .a{
+        width: 52%;
+        margin-right: 80px;
+    }
+
+}
+@media only screen and (max-width:1250px){
+    .a{
+        width: 52%;
+        margin-right: 80px;
+    }
+    .b{
+        background-size: 320px;
+        height: 220px;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .c{
+        background-size: 320px;
+        height: 250px;
+        margin-left: 180px;
+        
+    }
+    h3{
+        margin: 5px;
+        margin-left: 15px;
+        color: white;
+        letter-spacing: 2px;
+    }
+    .f{
+        margin-top: 50px;
+        margin-left: 250px;
+
+}
+    
+}
+@media only screen and (max-width:1200px){
+    .a{
+        width: 50%;
+        margin-right: 50px;
+        background-size: 70%;
+        height: 700px;
+    }
+    .b{
+        background-size: 320px;
+        height: 220px;
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+    .c{
+        background-size: 320px;
+        height: 250px;
+        margin-left: 120px;
+        
+    }
+    h3{
+        margin: 5px;
+        margin-left: 15px;
+        color: white;
+        letter-spacing: 2px;
+    }
+    .f{
+        margin-top: 50px;
+        margin-left: 250px;
+
+}
+    
+}
+@media only screen and (max-width:900px){
+        .a,  .c, .g, .j, .form, input{
+            width: 100%;
+    }
+    .a{
+        height: 400px;
+        background-size: 100%;
+    }
+    .c{
+        margin-top: 0px;
+    }
+    .b{
+        margin-top: 20px;
+    }
+    .i{
+        width: 46%;
+    }
+    .h{
+        width: 18%;
+        margin: 15px;
+    }
+    .g, input, .j{
+        margin: 0 20px;
+        width: 90%;
+    }
+        
+    }
+
+
+@media only screen and (max-width:375px){
+        .a,  .c, .g, .j, .form, input{
+            width: 100%;
+    }
+    .a{
+        height: 400px;
+        background-size: 100%;
+    }
+    .c{
+        margin-top: 0px;
+    }
+    .b{
+        margin-top: 20px;
+    }
+    .i{
+        width: 46%;
+    }
+    .h{
+        width: 18%;
+        margin: 15px;
+    }
+    .g, input, .j{
+        margin: 0 20px;
+        width: 90%;
+    }
+        
+    }
