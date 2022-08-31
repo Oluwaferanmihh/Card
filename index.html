@@ -20,15 +20,15 @@
             </div>
         </div>
         <div class="form">
-            <form action="https://oluwaferanmihh.github.io/sucess/" method="post">
+            <form action="sucess.html/" method="post">
             <p class="g">CARDHOLDER NAME</p>
             <input type="text" placeholder="e.g Jane Appleseed" autofocus required><br><br>
             <p class="g">CARD NUMBER </p>
             <input type="text" placeholder="e.g 1234 5678 9123 0000" required pattern="[0-9]{4} [0-9]{4} [0-9]{4} [0-9]{4}" title="numbers only, include space also"><br><br>
             <p class="g"><span class="span2">EXP. DATE (MM/YY)</span> CVC</p>
-            <input type="text" placeholder="MM" class="h" required>
-            <input type="text" placeholder="YY" class="h" required>
-            <input type="text" placeholder="e.g 123" class="i" required><br><br>
+            <input type="text" placeholder="MM" pattern="[0-9]{2}" title="numbers only" class="h" required>
+            <input type="text" placeholder="YY" pattern="[0-9]{2}" title="numbers only" class="h" required>
+            <input type="text" placeholder="e.g 123" class="i" required pattern="[0-9]{3}" title="numbers only"><br><br>
             <input type="submit" value="Confirm" class="j">
             
         </form>
